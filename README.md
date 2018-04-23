@@ -9,3 +9,17 @@ Usage:
 make
 sudo make install
 ```
+
+Then go into the clasp top level directory and type:
+
+```
+echo "USE_PARALLEL_BUILD = True" >> wscript.config
+```
+
+Then build clasp using:
+
+```
+make clean
+make configure
+make
+```
